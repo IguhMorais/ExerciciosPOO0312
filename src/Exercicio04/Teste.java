@@ -23,4 +23,5 @@ public class Teste{
         
         System.out.println("Codigo:"+admin.getCdSetor()+"\tNome:"+admin.getNome()+"\tendereco:"+admin.getEndereco()+"\t\nTelefone:"+admin.getTelefone()+"\tSalario:"+admin.calcularSalario());
     }
+    
 }

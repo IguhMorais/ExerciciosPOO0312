@@ -24,5 +24,6 @@ public class Administrador extends Empregado{
     public Administrador(){
         
     }
+    
 
 }

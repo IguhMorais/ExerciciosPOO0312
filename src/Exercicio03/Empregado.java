@@ -42,5 +42,4 @@ public class Empregado extends Pessoa{
         return sal-(sal*(imposto/100));
     }
 
-
 }

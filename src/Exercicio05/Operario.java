@@ -23,12 +23,12 @@ public class Operario extends Empregado{
 
     @Override
     public double calcularSalario(){
-        return getSalario()+(getValorProducao()*(getComisao()/100));
+        return (getSalBase()-(getSalBase()*(getImposto()/100)))+(getValorProducao()*(getComisao()/100));
     }
 
     @Override
-    public double calcularSalario(double s,double vp, double c){
-        return s+(vp*(c/100));
+    public double calcularSalario(double s,double vp, double c, double i){
+        return (s-(s*(i/10)))+(vp*(c/100));
     }
 
     public Operario(){

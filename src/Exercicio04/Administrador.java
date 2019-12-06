@@ -16,7 +16,6 @@ public class Administrador extends Empregado{
         return getAjudaDeCusto()+(getSalBase()-(getSalBase()*(getImposto()/100)));
     }
 
-    @Override
     public double calcularSalario(double sal , double imposto, double ajuda){
         return ajuda+(sal-(sal*(imposto/100)));
     }

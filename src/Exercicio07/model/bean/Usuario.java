@@ -1,6 +1,7 @@
 package Exercicio07.model.bean;
 
 public class Usuario{
+
     private byte idUsuario;
     private String nome;
     private String email;
@@ -28,4 +29,5 @@ public class Usuario{
     public void setEmail(String mail){
         this.email = mail;
     }
+    
 }
